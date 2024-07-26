@@ -1,0 +1,76 @@
+body {
+    background-image: url(imgs/background.webp);
+    background-size:cover;
+    display: grid;
+            place-items: center;
+            height: 100vh;
+            overflow:hidden;
+}
+
+.subbackground {
+    width: 80%;
+    height: 100%; 
+    overflow: hidden;
+    display:inline-block;
+    background-color: rgba(212, 212, 212, 0.5);
+}
+
+.subbackground > .infprin {
+    border-image:url(imgs/border.jpeg) 65 / 5px;
+    width: 15%;
+    text-align:center;
+    background-color: #ffffe0;
+    float:right;
+}
+
+#tinf {
+    font-weight: normal;
+    font-family: sans-serif;
+    padding-top:1vh;
+}
+
+#titulo {
+    color: #960d0d;
+    font-size: 3vh;
+    padding-left:1.5vh;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1vh
+}
+
+#pprin {
+    font-size: 2.5vh;
+    font-weight: normal;
+    padding-left:1.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tosemcriatividade {
+    border-collapse:collapse;
+    margin:0.4vh;
+}
+.td1 {
+    background-color: #f1ec81;
+    border: #cd7f32 solid 2px;
+    
+}
+
+.td2 {
+    background-color: #ffefd5;
+    border: #cd7f32 solid 2px
+}
+
+#ata {
+    vertical-align: top;
+    background-color: #f1ec81;
+    border: #cd7f32 solid 2px;
+}
+
+#preguica {
+    padding-left:1vw;
+    font-size: 2.5vh;
+    
+}
+
+video {
+    padding-left:1vw;
+}
